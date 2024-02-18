@@ -84,10 +84,22 @@
 Q). Is the componentDidUpdate() method first called or Is the shouldComponentUpdate() method called 
     first 
     
-    Ans-->  
+    Ans-->  First shouldComponentUpdate() method will be called if shouldComponentUpdate() method
+            return true after that componentDidUpdate() method will be called.
    
 
-===> When will ComponentWillUnmountt() method called?
-     whenever a component is removed from DOM the ComponentWillUnmount() method is called.
-     Like: A <button> is removed from DOM then the ComponentWillUnmount() method is being called
+
+===> When will ComponentWillUnmountt() LCM method called?
+      1. whenever a component is removed from DOM the ComponentWillUnmount() method is called.
+         Like: A <button> is removed from DOM then the ComponentWillUnmount() method is being called
      
+       2. When component is removed from DOM then ComponentWillUnmount() method automatically called
+    
+
+==> When we use ComponentWillUnmount() LCM method: 
+        1. To perform any clean up operation like setInterval, removing event listeners etc.
+        2. suppose any data is loading then we can cancel inside ComponentWillUnmount() method 
+        2. suppose we make API call then suddenly we want to removed the component then we 
+           will be use ComponentWillUnmount() method.
+
+

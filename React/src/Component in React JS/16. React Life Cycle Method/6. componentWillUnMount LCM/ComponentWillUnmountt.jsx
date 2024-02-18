@@ -8,11 +8,12 @@ class ComponentWillUnmountt extends React.Component {
             show: true,
             };
     }
+
     render() {
         return (
-            <div className="App">
-                {this.state.show ? <Student /> : <h1>Component is removed</h1>}
-                <button onClick={() => this.setState({ show: false })}>Toogle Component </button>
+            <div>
+                {this.state.show ? <Student /> : <h1>Child Component is removed</h1>}
+                <button onClick={() => this.setState({ show: !this.state.show })}>Toogle Component </button>
             </div>
         );
     }

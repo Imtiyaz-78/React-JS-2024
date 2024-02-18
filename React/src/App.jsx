@@ -23,7 +23,9 @@
 
 // import ComponentDidUpdatee from "./Component in React JS/16. React Life Cycle Method/4. ComponentDidUpdate LCM/ComponentDidUpdatee";
 
-import ShouldComponentUpdatee from "./Component in React JS/16. React Life Cycle Method/5. ShouldComponentUpdate LCM/ShouldComponentUpdatee";
+// import ShouldComponentUpdatee from "./Component in React JS/16. React Life Cycle Method/5. ShouldComponentUpdate LCM/ShouldComponentUpdatee";
+
+import ComponentWillUnmountt from "./Component in React JS/16. React Life Cycle Method/6. componentWillUnMount LCM/ComponentWillUnmountt";
 
 // <==================> React Life Cycle method Ends  <=======================>
 
@@ -51,7 +53,8 @@ function App() {
       {/* <RenderLCM/> */}
       {/* <ComponentDidMount/> */}
       {/* <ComponentDidUpdatee/> */}
-      <ShouldComponentUpdatee/>
+      {/* <ShouldComponentUpdatee/> */}
+      <ComponentWillUnmountt/>
      
     </>
   );

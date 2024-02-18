@@ -1,0 +1,21 @@
+
+
+==> What is React Hooks:
+    whenever we have to acheive feature of class component Life cyle  method inside  
+    functional component like state, life cycle then we will be use React Hooks. 
+
+
+    1. useState:  It's used for managing the state in functional components.
+                  In class based component, it was done using this.state
+
+    2. useEffect: It's used for performing side effects like an event listener 
+                  and making an API call etc or fetching data from an API.
+
+                  In class based component, it was done using componentDidMount() method
+                  and componentDidUpdate() method when the component mounts or updates.
+                  
+
+
+    4. useContext: It’s used to access the value from the context without
+                   having to pass props  down manually with every level.
+  
