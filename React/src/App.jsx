@@ -30,7 +30,8 @@
 
 
 // <=================> REACT HOOKS START HERE <=========================>
-import UseState from "./Component in React JS/17.  React Hooks/1. useState Hook/UseState";
+// import UseState from "./Component in React JS/17.  React Hooks/1. useState Hook/UseState";
+import UseEffectHook from "./Component in React JS/17.  React Hooks/2. useEffect Hook/UseEffectHook";
 
 // <=================> REACT HOOKS END HERE <============================>
 
@@ -60,7 +61,8 @@ function App() {
       {/* <ComponentDidUpdatee/> */}
       {/* <ShouldComponentUpdatee/> */}
       {/* <ComponentWillUnmountt/> */}
-      <UseState/>
+      {/* <UseState/> */}
+      <UseEffectHook/>
      
     </>
   );
