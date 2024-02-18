@@ -1,0 +1,28 @@
+.container {
+  background-color: skyblue;
+  border-radius: 12px;
+  height: 150px;
+}
+
+.btn1,
+.btn2 {
+  background-color: blue;
+  border: 2ps solid green;
+  color: white;
+  font-size: 30px;
+  border-radius: 13px;
+}
+
+
+.btn1{
+  margin-right: 10px;
+
+}
+.toglee{
+    background-color: magenta;
+    border: 2ps solid green;
+    color: white;
+    font-size: 30px;
+    border-radius: 13px;
+    margin-right: 200px;
+  }

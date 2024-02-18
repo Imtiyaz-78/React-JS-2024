@@ -1,0 +1,16 @@
+
+==> What is component:
+    component is a block of code or peace of code that can we can reuse called component.
+    Ex: component of webiste are : Navbar, Footer, Header, Section etc
+    Ex: component of Real House are: Bedroom, Washroom, Guest room, Kitchen etc
+
+==> Types of component:
+    1. Functional component
+    2. Class component
+    3. Higher order component(HOC)
+    4. Pure component
+    5. Controlled component
+    6. Uncontrolled component
+
+
+==> 

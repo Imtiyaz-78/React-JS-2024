@@ -1,0 +1,21 @@
+===> What is state in react js:
+     1. state is an object which is use to store or hold the data.
+     2. state is a container which is use to store the data.
+     3. state is like that varibale.
+
+
+==> Why we use state in react instead of variable:
+    when we use variable then our variable value will not be change 
+    and when we use state then value will changed on every where
+
+
+==> What is diff b/w state and variable:
+     1. when we use noramal variable once it's assigned its value can’t be changed.
+     2. but when we use State then React itself manage
+     3. But in ReactJS, State has the capability to update itself. So whenever you make any changes
+     4. In variable we can not use this keyword.
+     5. But in state we can use this keyword for access the component.
+
+
+     Byself: When we use variable then component will not be re-render 
+             and when we use state then component will be re-rendered.
