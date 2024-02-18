@@ -5,17 +5,23 @@
     functional component like state, life cycle then we will be use React Hooks. 
 
 
-    1. useState:  It's used for managing the state in functional components.
-                  In class based component, it was done using this.state
+==> What is useState() Hook in React:  
+       It's used for managing the state in functional components.
+       In class based component, it was done using this.state
 
-    2. useEffect: It's used for performing side effects like an event listener 
-                  and making an API call etc or fetching data from an API.
 
-                  In class based component, it was done using componentDidMount() method
-                  and componentDidUpdate() method when the component mounts or updates.
+==> What is useEffect() Hook in React: 
+       1. useEffect is a React Hook that's used for performing side effects like an  
+          event listener and making an API call or fetching data from an API etc.   
+
+       2. useEffect() Hook is Similar to componentDidMount and componentDidUpdate.          
+
+       3. In class based component, it was done using componentDidMount() method
+          and componentDidUpdate() method when the component mounts or updates.
                   
 
 
-    4. useContext: It’s used to access the value from the context without
-                   having to pass props  down manually with every level.
+==> What is useContext() Hook in React:
+       It’s used to access the value from the context without
+       having to pass props  down manually with every level.           
   
