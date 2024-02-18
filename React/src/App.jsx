@@ -25,9 +25,14 @@
 
 // import ShouldComponentUpdatee from "./Component in React JS/16. React Life Cycle Method/5. ShouldComponentUpdate LCM/ShouldComponentUpdatee";
 
-import ComponentWillUnmountt from "./Component in React JS/16. React Life Cycle Method/6. componentWillUnMount LCM/ComponentWillUnmountt";
-
+// import ComponentWillUnmountt from "./Component in React JS/16. React Life Cycle Method/6. componentWillUnMount LCM/ComponentWillUnmountt";
 // <==================> React Life Cycle method Ends  <=======================>
+
+
+// <=================> REACT HOOKS START HERE <=========================>
+import UseState from "./Component in React JS/17.  React Hooks/1. useState Hook/UseState";
+
+// <=================> REACT HOOKS END HERE <============================>
 
 function App() {
   return (
@@ -54,7 +59,8 @@ function App() {
       {/* <ComponentDidMount/> */}
       {/* <ComponentDidUpdatee/> */}
       {/* <ShouldComponentUpdatee/> */}
-      <ComponentWillUnmountt/>
+      {/* <ComponentWillUnmountt/> */}
+      <UseState/>
      
     </>
   );
