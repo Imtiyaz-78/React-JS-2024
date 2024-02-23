@@ -18,7 +18,6 @@ class ShouldComponentUpdatee extends React.Component {
         }
     }
     
-
     render() {
         return (
             <div className="App">

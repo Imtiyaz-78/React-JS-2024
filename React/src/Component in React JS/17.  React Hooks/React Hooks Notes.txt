@@ -19,6 +19,7 @@
        3. In class based component, it was done using componentDidMount() method
           and componentDidUpdate() method when the component mounts or updates.
 
+
 -->Note--> We can use multiple useEffect() Hook for separate Component
           like useEffect((){
                   console.log("Work 1")
@@ -32,4 +33,5 @@
 ==> What is useContext() Hook in React:
        It’s used to access the value from the context without
        having to pass props  down manually with every level.           
-  
+
+
