@@ -38,8 +38,7 @@ import UseEffectWithState from "./Component in React JS/17.  React Hooks/2. useE
 
 import UseEffectWithProps from "./Component in React JS/17.  React Hooks/2. useEffect Hook/2. useEffect Hook with Props/UseEffectWithProps";
 
-
-
+import StyleInReact from "./Component in React JS/18. Style Type in React/Multiple way of Style/StyleInReact";
 // <=================> REACT HOOKS END HERE <============================>
 
 function App() {
@@ -71,7 +70,8 @@ function App() {
       {/* <UseState/> */}
       {/* <UseEffectHook/> */}
       {/* <UseEffectWithState/> */}
-      <UseEffectWithProps/>
+      {/* <UseEffectWithProps/> */}
+      <StyleInReact/>
   
     </>
   );
