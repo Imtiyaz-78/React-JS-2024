@@ -1,0 +1,141 @@
+https://app.wonsulting.ai/networking-tool
+
+==> What is React:
+    1. React is a Javascript Liberary
+    2. The main focus is building UI as fast as possible
+    3. So this is used for single Page Application
+    4. Menas Complete website in single Page
+
+
+==> Why we learn React:
+    1. High demand due to fast speed 
+    2. Maintained by Facebook so it will Long Term
+    3. Large Community for your support (Easily get solution)
+    4. Mobile App Development also using React Native
+
+
+==> History & Vesrion 
+    1. First release on 29 May 2013
+    2. App develop with react (Netflix, WhatsWeb, Instagram, Airbnb)
+
+
+==> What is JSX:
+    Write HTML and JavaScript Together
+    Use Like HTML oe XML
+
+
+==> What is Props in React:
+    Props stand for "Properties" same like in function we pass parameter 
+    same as in Props we pass Properties like data send from parent component to child component
+
+
+
+==> When execute or run Life cyle Method:
+    1. when component is loaded 
+    2. when component is updated with state and props
+    3. when component is removed from the DOM
+
+
+==> What is constructor:
+    1. The constructor is called as soon as the class component is created.
+    2. It is used to initialize the local state of a class component.
+    3. If you don’t provide a constructor in your React component,
+       it will be automatically provided for you by JavaScript.
+
+==> Why we use super() Method 
+    1. super() method is use to call parent constructor.
+    2. In JavaScript classes, if you want to inherit properties 
+       and methods from a parent class (also known as a superclass),
+       then you need to invoke the parent constructor using the super
+       keyword inside the child class constructor.
+  
+    3. calling super(...) allows us to call the constructor of that base class.
+
+
+==> What is Render Life Cycle Method:
+    1. render() function returns the HTML markup which needs to be rendered on the screen.
+    2. render() function is required in all components.
+    3. React will call this function whenever something changes in the state or props of component.   
+    4.  So, even if nothing actually changed, React still calls the render() function.
+
+
+==> What is componentDidMount() Life Cycle Method:
+    1. componentDidMount() method Called immediately after a component is mounted.
+    2. componentDidMount() method only called or invoked once when component is mounted
+    3. This method is invoked immediately after the initial rendering() method occurs.
+    4. Use of componentDidMount() method in the lifecycle is to fetch data from an API, 
+       set up a subscription
+   
+
+==> What is componentDidUpdate() Life Cycle Method:
+    1. componentDidUpdate() method is called immediately after component updating occurs. 
+    2. It is called whenever the component’s props or state change.
+    3. It is also called for the initial render
+    
+    4. If we define the componentDidUpdate method, React will call it immediately after our
+       component has been re-rendered with updated props or state. 
+    5. This method is not called for the initial render.
+
+
+==> Use of componentDidUpdate()
+    1. Use of componentDidUpdate() method can be useful for performing actions 
+       after updates are applied, such as setting focus on an input element.
+   
+    2. Another common usage pattern is to perform animation. 
+    3. we can use it to manipulate the DOM after an update.   
+
+
+==> What is shouldComponentUpdate() LCM:
+    1. If we define shouldComponentUpdate() method, React will call it to determine 
+       whether a re-render can be skipped.
+    
+    2. If you are confident you want to write it by hand, you may compare this.props with nextProps
+       and this.state with nextState and return false to tell React the update can be skipped.
+
+    3. The default behavior of shouldComponentUpdate() method is always returns false.(v.v.i)
+    3. The default behavior of the ShouldComponentUpdate() method is to prevent the component from 
+       being updated. 
+        
+
+
+==> When shouldComponentUpdate() method  called and use:
+    1. shouldComponentUpdate() method is called before calculating the difference between current
+       and next props/state.
+        
+    2. Returning true means that React will proceed with rendering the new UI.
+    3. Returning false means that React will skip or stop creating a new tree and reuse the existing
+
+
+--->>--> can we call API inside componentDidUpdate() method:
+         Yes! We can make API calls inside componentDidUpdate() if we have certain condition
+         Like: if(this.state.counter <= 5) {
+                   return true;
+                }
+
+Q). Is the componentDidUpdate() method first called or Is the shouldComponentUpdate() method called 
+    first 
+    
+    Ans-->  First shouldComponentUpdate() method will be called if shouldComponentUpdate() method
+            return true after that componentDidUpdate() method will be called.
+   
+
+
+===> When will ComponentWillUnmountt() LCM method called?
+      1. whenever a component is removed from DOM the ComponentWillUnmount() method is called.
+         Like: A <button> is removed from DOM then the ComponentWillUnmount() method is being called
+     
+       2. When component is removed from DOM then ComponentWillUnmount() method automatically called
+    
+
+==> When we use ComponentWillUnmount() LCM method: 
+        1. To perform any clean up operation like setInterval, removing event listeners etc.
+        2. suppose any data is loading then we can cancel inside ComponentWillUnmount() method 
+        2. suppose we make API call then suddenly we want to removed the component then we 
+           will be use ComponentWillUnmount() method.
+
+
+
+==> How many ways we have to style in React JS:
+       1. Use the noramal stylesheet
+       2. style with the variable or inline style
+       3. css with module
